@@ -1,0 +1,112 @@
+body{
+	background: url(../img/816831.jpg) no-repeat 100%;
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.ba-playlist {
+	margin: auto;
+	max-width: 400px;
+	box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 50px;
+	background: #f1f1f1;
+}
+.ba-playlist h1 {
+	text-align: center;
+	color: #574d72;
+	font-size: 22px;
+}
+.ba-playlist__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ba-song {
+	border-top: 1px solid #ccc;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.ba-song__like {
+	float: right;
+	width: 32px;
+	height: 32px;
+	fill: red;
+}
+.ba-song__like:hover {
+	fill: #000;
+	cursor: pointer;
+}
+.ba-song__name, .ba-song__author {
+	text-transform: capitalize;
+}
+.ba-song__author {
+	padding-left: 10px;
+	border-left: 1px solid #ccc;
+}
+.ba-song__time {
+	margin-right: 10px;
+}
+.ba-song__top {
+	display: flex;
+	font-size: 12px;
+	margin-bottom: 5px;
+    color: #a4a3a9;
+}
+.ba-song__name {
+	color: #574d72;
+	font-weight: 600;
+}
